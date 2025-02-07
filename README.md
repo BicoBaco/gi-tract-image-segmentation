@@ -1,10 +1,12 @@
-# gi-tract-image-segmentation
+# gi-tract-image-segmentation (Jan 2023)
 
 ## Overview
 This project involves the implementation of a model able to segment healthy gastrointestinal tract organs (large bowel, small bowel and stomach) in MRI scans in order to mask them during the administration of radiotherapy.
+Based on the following Kaggle challenge: https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation/overview
 
+Contributors: Vincenzo Messina and Giorgio Tocco
 
-## Data
+## Data (from the challenge)
 The training annotations are provided as RLE-encoded masks, and the images are in 16-bit grayscale PNG format.
 
 Each case in this competition is represented by multiple sets of scan slices (each set is identified by the day the scan took place). Some cases are split by time (early days are in train, later days are in test) while some cases are split by case - the entirety of the case is in train or test. The goal of this competition is to be able to generalize to both partially and wholly unseen cases.
@@ -32,12 +34,12 @@ Adam optimizer
 
 ## Project Structure
 - Image preprocessing and normalization
-  - Creazione immagini png delle maschere
-  - Caricamento delle immagini in memoria
-  - Normalizzazione delle immagini
-- Dataset splitting
-- Data augmentation
-- Model definition
-- Training
+  - Generation of mask png images from RLE encodings
+  - Scan images loading
+  - Scan images normalization
+- Dataset splitting in training set and validation set
+- Data augmentation (by shifting and rotating the scans)
+- Custom model definition
+- Training phase
 - Mask prediction and visualization
 - Results submission generation
