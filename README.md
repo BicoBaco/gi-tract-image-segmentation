@@ -1,5 +1,7 @@
 # gi-tract-image-segmentation (Jan 2023)
 
+Planning to repeat the challenge with the new skills acquired by progressing on the master's course!
+
 ## Overview
 University project for the "Big Data" course (MS in Computer Engineering, Università degli Studi di Palermo @unipa) based on the following Kaggle challenge: https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation/overview
 
