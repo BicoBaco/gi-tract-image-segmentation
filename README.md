@@ -1,8 +1,9 @@
 # gi-tract-image-segmentation (Jan 2023)
 
 ## Overview
+University project for the "Big Data" course (MS in Computer Engineering, Università degli Studi di Palermo @unipa) based on the following Kaggle challenge: https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation/overview
+
 This project involves the implementation of a model able to segment healthy gastrointestinal tract organs (large bowel, small bowel and stomach) in MRI scans in order to mask them during the administration of radiotherapy.
-Based on the following Kaggle challenge: https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation/overview
 
 Contributors: Vincenzo Messina and Giorgio Tocco
 
